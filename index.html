@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <div>
+          <h2>Agnieszka Śliwińska</h2>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" style="color: coral;">Strona główna</a>
+          </li>
+          <li><a href="seriale.html">Ulubione seriale</a></li>
+          <li><a href="książki.html">Ulubione książki</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <span
+            >Cześć! Jestem Agnieszka i
+            <span style="color: coral;">lubię programować</span></span
+          >
+        </div>
+
+        <img src="main.jpg" />
+      </section>
+
+      <article>
+        <h4 class="article-element">Kilka słów o mnie</h4>
+        <p class="article-element">
+          Jestem absolwentką <b>III Liceum Ogólnokształcącego w Zamościu</b>, które
+          ukończyłam <i>w 2021r. </i>
+          W wolnych chwilach lubie czytać książki oraz oglądać seriale. Lubię podróżować
+          po górach i zwiedzać okolice.
+        </p>
+      </article>
+
+      <article>
+        <h4 class="article-element">Moje ulubione seriale</h4>
+        <ul class="article-element">
+          <li><i>Better call Saul</i>
+          <li><i>Breaking Bad</i>
+          <li><i>Stranger things</i>
+        </ul>
+      </article>
+
+      <article>
+        <h4 class="article-element">Moje ulubione książki</h4>
+        <ul class="article-element">
+          <li><i>Włam się do mózgu</i>
+          <li><i>Potęga podświadomości</i>
+          <li><i>138</i>
+        </ul>
+      </article>
+
+      <article>
+        <h4 class="article-element">Moje ulubione filmy</h4>
+        <ul class="article-element">
+          <ul> 
+            <li>Platforma 
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/Platforma-2019-839870">Platforma</A>
+                </ul>
+            <li>Dżungla
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/D%C5%BCungla-2017-765956">Dżungla</A>
+                </ul>
+            <li>Zielona mila
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/Zielona+mila-1999-862">Zielona mila</A>
+                </ul>
+         </ul>
+      </article>
+
+      <article>
+        <h4 class="article-element">Moje ścieżka nauki</h4>
+        <table class="article-element" border="1">
+          <tr>
+            <th>Data</th>
+            <th>Szkoła</th>
+          </tr>
+          <tr>
+            <td>2022 - obecnie</td>
+            <td>WSIZ</td>
+          </tr>
+          <tr>
+            <td>2018 - 2021</td>
+            <td>III Liceum ogólnokształcące w Zamościu</td>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+        <h4 class="article-element">Pusta tabelka</h4>
+        <table class="article-element" border="1" width="100" height="100">
+          <tr>
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td rowspan="2" colspan="2"></td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+        </table>
+      </article>
+
+      <article>
+        <div class="article-element">
+          <h4>Moje ulubione filmy</h4>
+          <ul> 
+            <li>Platforma 
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/Platforma-2019-839870">Platforma</A>
+                </ul>
+            <li>Dżungla
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/D%C5%BCungla-2017-765956">Dżungla</A>
+                </ul>
+            <li>Zielona mila
+                <ul>
+                <li><A href="https://www.filmweb.pl/film/Zielona+mila-1999-862">Zielona mila</A>
+                </ul>
+         </ul>
+        </div>
+        <img
+          class="article-element"
+          src="ZM.jpg"
+          height="200"
+        />
+      </article>
+
+    </main>
+
+    <article>
+      <div>
+        <h4>Your news form</h4>
+        <form action="." method="post">
+          <div>
+            <label>Name: </label>
+            <input type="text" required />
+          </div>
+          <div>
+            <label>Email: </label>
+            <input type="email" required />
+          </div>
+          <div>
+            <label>Do you want to get news daily? </label>
+            <input type="checkbox" checked />
+          </div>
+          <div>
+            <label>Do you want to get 10% dicount? </label>
+            <input type="radio" />
+          </div>
+          <div>
+            <label>Select first news day</label>
+            <input type="date" requiredq />
+          </div>
+          <div>
+            <input type="submit" value="Subscribe!" />
+          </div>
+        </form>
+      </div>
+      <aside>Menu boczne</aside>
+    </article>
+
+    <footer>© 2022-2023 AgnieszkaSliwinska.pl</footer>
+    <hr />
+    <hr />
+  </body>
+</html>
